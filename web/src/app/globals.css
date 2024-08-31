@@ -5,9 +5,15 @@
 body {
   background: 
     linear-gradient(to right, rgba(0, 0, 0, 0.7), transparent), 
-    url("/intractions.webp");
+    url("/background-img.webp");
   background-repeat: no-repeat;
   background-position: center; 
   background-size: cover;
   background-attachment: fixed;
+}
+
+.text-sh {
+  text-shadow: 
+    0 0 10px rgba(0, 0, 0, 0.5), /* Outer shadow (blur effect) */
+    0 0 20px rgba(0, 0, 0, 0.3); /* Inner shadow (simulated spread) */
 }
