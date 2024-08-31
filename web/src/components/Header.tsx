@@ -1,3 +1,5 @@
+import Link from "next/link"
+
 const Header = () => {
   return (
     <header className="flex items-center justify-between px-20 h-[5rem] shadow-md sticky top-0 bg-white z-10">
@@ -6,7 +8,7 @@ const Header = () => {
         </div>
         <div>
             <nav className="flex gap-2 list-none">
-                <li className="py-2 px-3">Home</li>
+                <Link href="/"><li className="py-2 px-3">Home</li></Link>
                 <li className="py-2 px-3">About</li>
                 <li className="py-2 px-3">Contact</li>
                 <li><button className="py-2 px-3 bg-[#228B22] text-white rounded-md">Account</button></li>
