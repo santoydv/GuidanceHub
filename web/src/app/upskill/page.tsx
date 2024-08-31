@@ -1,5 +1,5 @@
 
-const Academic = () => {
+const UpSkill = () => {
   return (
     <section className="flex flex-col gap-5">
         <h1 className="text-3xl uppercase font-semibold">UpSkill</h1>
@@ -16,4 +16,4 @@ const Academic = () => {
   )
 }
 
-export default Academic
+export default UpSkill
