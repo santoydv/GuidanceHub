@@ -2,16 +2,15 @@ import Link from "next/link"
 
 const Header = () => {
   return (
-    <header className="flex items-center justify-between px-20 h-[5rem] shadow-md sticky top-0 bg-white z-10">
+    <header className="flex items-center gap-24  h-[5rem] sticky top-0 bg-[#F8D287] z-10">
+        <div className="bg-[#3F51B5] h-full flex px-10 items-center justify-center text-3xl font-bold uppercase tracking-wider text-white">GuidanceHUB</div>
         <div>
-            <h1 className="font-bold text-2xl">GuidanceHUB</h1>
-        </div>
-        <div>
-            <nav className="flex gap-2 list-none">
-                <Link href="/"><li className="py-2 px-3">Home</li></Link>
-                <li className="py-2 px-3">About</li>
-                <li className="py-2 px-3">Contact</li>
-                <li><button className="py-2 px-3 bg-[#228B22] text-white rounded-md">Account</button></li>
+            <nav className="list-none flex gap-20 text-[#3F51B5] font-semibold ">
+              <Link href="/"><li className="hover:text-blue-950">Home</li></Link>  
+              <Link href="/"><li className="hover:text-blue-950">Academic</li></Link>  
+              <Link href="/"><li className="hover:text-blue-950">UpSkill</li></Link>  
+              <Link href="/"><li className="hover:text-blue-950">Club Activities</li></Link>  
+              <Link href="/"><li className="hover:text-blue-950">Alumni Intraction</li></Link>  
             </nav>
         </div>
     </header>

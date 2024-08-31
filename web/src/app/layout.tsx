@@ -16,10 +16,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className="flex flex-col gap-10">
+      <body className="">
       <NextTopLoader />
         <Header/>
-        <div className="px-20">
+        <div className="">
         {children}
         </div>
         </body>
