@@ -64,7 +64,7 @@ export default function Home() {
                   <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit fugit, quas deleniti provident unde repudiandae inventore dolorem? Numquam labore quae, culpa, assumenda velit rerum sapiente praesentium adipisci repellat itaque voluptates.</p>
                 </div>
               </div>
-              <Link href="/academics" className="min-w-full">
+              <Link href="/upskill" className="min-w-full">
                 <button className="w-full py-2 px-3 border-2 border-[#3F51B5] text-[#3F51B5] font-bold hover:bg-[#3F51B5] transition-all duration-200 hover:text-white text-xl outline-none">
                   View more
                 </button>
