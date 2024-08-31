@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
 
@@ -60,7 +61,7 @@ export default function Home() {
             <div className="flex flex-col gap-5">
               <div className="w-[22rem] h-[17rem] relative overflow-hidden group">
                 <img src="/boyphoto.webp" className="w-full h-full object-cover" alt="Boy Photo" />
-                <div className="absolute px-2 top-[90%] bg-white h-full w-full transition-all duration-500 ease-in-out group-hover:top-0 flex flex-col gap-5">
+                <div className="absolute px-2 text-[#3F51B5] top-[90%] bg-white h-full w-full transition-all duration-500 ease-in-out group-hover:top-0 flex flex-col gap-5">
                   <h1 className="text-2xl  font-bold">Academics</h1>
                   <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit fugit, quas deleniti provident unde repudiandae inventore dolorem? Numquam labore quae, culpa, assumenda velit rerum sapiente praesentium adipisci repellat itaque voluptates.</p>
                 </div>
@@ -70,7 +71,7 @@ export default function Home() {
             <div className="flex flex-col gap-5">
               <div className="w-[22rem] h-[17rem] relative overflow-hidden group">
                 <img src="/boyphoto.webp" className="w-full h-full object-cover" alt="Boy Photo" />
-                <div className="absolute px-2 top-[90%] bg-white h-full w-full transition-all duration-500 ease-in-out group-hover:top-0 flex flex-col gap-5">
+                <div className="absolute text-[#3F51B5] px-2 top-[90%] bg-white h-full w-full transition-all duration-500 ease-in-out group-hover:top-0 flex flex-col gap-5">
                   <h1 className="text-2xl  font-bold">UpSkill</h1>
                   <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit fugit, quas deleniti provident unde repudiandae inventore dolorem? Numquam labore quae, culpa, assumenda velit rerum sapiente praesentium adipisci repellat itaque voluptates.</p>
                 </div>
@@ -80,7 +81,7 @@ export default function Home() {
             <div className="flex flex-col gap-5">
               <div className="w-[22rem] h-[17rem] relative overflow-hidden group">
                 <img src="/boyphoto.webp" className="w-full h-full object-cover" alt="Boy Photo" />
-                <div className="absolute px-2 top-[90%] bg-white h-full w-full transition-all duration-500 ease-in-out group-hover:top-0 flex flex-col gap-5">
+                <div className="absolute text-[#3F51B5] px-2 top-[90%] bg-white h-full w-full transition-all duration-500 ease-in-out group-hover:top-0 flex flex-col gap-5">
                   <h1 className="text-2xl  font-bold">Club Activities</h1>
                   <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit fugit, quas deleniti provident unde repudiandae inventore dolorem? Numquam labore quae, culpa, assumenda velit rerum sapiente praesentium adipisci repellat itaque voluptates.</p>
                 </div>
@@ -90,7 +91,7 @@ export default function Home() {
             <div className="flex flex-col gap-5">
               <div className="w-[22rem] h-[17rem] relative overflow-hidden group">
                 <img src="/boyphoto.webp" className="w-full h-full object-cover" alt="Boy Photo" />
-                <div className="absolute px-2 top-[90%] bg-white h-full w-full transition-all duration-500 ease-in-out group-hover:top-0 flex flex-col gap-5">
+                <div className="absolute px-2 text-[#3F51B5] top-[90%] bg-white h-full w-full transition-all duration-500 ease-in-out group-hover:top-0 flex flex-col gap-5">
                   <h1 className="text-2xl  font-bold">Alumni Intraction</h1>
                   <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit fugit, quas deleniti provident unde repudiandae inventore dolorem? Numquam labore quae, culpa, assumenda velit rerum sapiente praesentium adipisci repellat itaque voluptates.</p>
                 </div>
@@ -100,6 +101,30 @@ export default function Home() {
 
           </div>
         </div>
+        <footer className="bg-[#3F51B5] text-white grid grid-cols-3 py-14 justify-items-start">
+          <div className="h-full flex px-10 items-center justify-center text-3xl font-bold uppercase tracking-wider text-white">
+            GuidanceHUB
+          </div>
+          <div>
+            <ul>
+              <Link href="/"><li>Home</li></Link>
+              <Link href="/about"><li>About us</li></Link>
+              <Link href="/contact"><li>Contact us</li></Link>
+              <Link href="/privacy-policy"><li>Privacy Policy</li></Link>
+              <Link href="/disclaimer"><li>Disclaimer</li></Link>
+            </ul>
+          </div>
+          <div>
+            <ul>
+              <Link href="/"><li>Home</li></Link>
+              <Link href="/about"><li>About us</li></Link>
+              <Link href="/contact"><li>Contact us</li></Link>
+              <Link href="/privacy-policy"><li>Privacy Policy</li></Link>
+              <Link href="/disclaimer"><li>Disclaimer</li></Link>
+            </ul>
+          </div>
+        </footer>
+
       </section>
     </>
   );
