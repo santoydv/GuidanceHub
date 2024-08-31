@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import Header from "src/components/Header";
 import NextTopLoader from "nextjs-toploader";
+import SmoothScrolling from "src/components/LenisWrapper";
 
 
 export const metadata: Metadata = {
@@ -16,12 +17,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className="">
+      <body className="flex flex-col">
       <NextTopLoader />
+      <SmoothScrolling>
         <Header/>
-        <div className="">
         {children}
-        </div>
+        </SmoothScrolling>
         </body>
     </html>
   );

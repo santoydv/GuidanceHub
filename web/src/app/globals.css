@@ -2,10 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
+#hero-section {
   background: 
     linear-gradient(to right, rgba(0, 0, 0, 0.7), transparent), 
-    url("/background-img.webp");
+    url("/background-img1.jpg");
   background-repeat: no-repeat;
   background-position: center; 
   background-size: cover;

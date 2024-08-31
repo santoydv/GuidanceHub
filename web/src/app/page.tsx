@@ -1,32 +1,20 @@
-import Image from "next/image";
 import Link from "next/link";
 
 export default function Home() {
 
   return (
     <>
-      <section id="hero-section" className="h-[85vh] w-full px-32 flex items-center">
-        <div className="flex flex-col gap-3">
-          <h1 className="text-[#F8D287] text-8xl font-bold capitalize text-sh">GuidanceHUB</h1>
-          <p className="text-4xl text-white max-w-[40rem] text-wrap">One Stop Solution for Success in Academics, Skills and Beyond.</p>
+      <section id="hero-section" className="h-[100vh] w-full px-32 flex items-center  ">
+        <div className="flex flex-col justify-center gap-3 w-full">
+          <h1 className="text-[#F8D287] block text-8xl text-center font-bold capitalize text-sh w-full">GuidanceHUB</h1>
+          <p className="text-4xl text-white block  text-center text-wrap">One Stop Solution for Success in Academics, Skills and Beyond.</p>
         </div>
       </section>
+
+
       <section className="bg-[#FFFFFF]">
         <div className="flex mb-10" id="#about-us">
-          {/* <div className="w-[15rem] bg-white flex flex-col gap-5 m-5 items-center">
-            <div className="flex w-[10rem] h-[10rem] rounded-xl justify-center items-center  border-2 border-[#3F51B5] text-xl text-center">
-              Academic
-            </div>
-            <div className="flex w-[10rem] h-[10rem] rounded-xl justify-center items-center  border-2 border-[#3F51B5] text-xl text-center">
-              UpSkill
-            </div>
-            <div className="flex w-[10rem] h-[10rem] rounded-xl justify-center items-center  border-2 border-[#3F51B5] text-xl text-center">
-              Club Activities
-            </div>
-            <div className="flex w-[10rem] h-[10rem] rounded-xl justify-center items-center  border-2 border-[#3F51B5] text-xl text-center">
-              Alumni Interaction
-            </div>
-          </div> */}
+
           <div className="flex flex-col w-full overflow-hidden" >
             <div className="bg-[#3F51B5] h-[10rem] w-full flex justify-center items-center">
               <h1 className="capitalize text-white text-5xl  font-bold ">WECLOME TO GUIDANCEHUB</h1>
@@ -61,7 +49,12 @@ export default function Home() {
                   <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit fugit, quas deleniti provident unde repudiandae inventore dolorem? Numquam labore quae, culpa, assumenda velit rerum sapiente praesentium adipisci repellat itaque voluptates.</p>
                 </div>
               </div>
-              <button className="py-2 px-3 border-2 border-[#3F51B5] text-[#3F51B5] font-bold hover:bg-[#3F51B5] transition-all duration-200 hover:text-white text-xl outline-none">View more</button>
+              <Link href="/academics" className="min-w-full">
+                <button className="w-full py-2 px-3 border-2 border-[#3F51B5] text-[#3F51B5] font-bold hover:bg-[#3F51B5] transition-all duration-200 hover:text-white text-xl outline-none">
+                  View more
+                </button>
+              </Link>
+
             </div>
             <div className="flex flex-col gap-5">
               <div className="w-[22rem] h-[17rem] relative overflow-hidden group">
@@ -71,7 +64,11 @@ export default function Home() {
                   <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit fugit, quas deleniti provident unde repudiandae inventore dolorem? Numquam labore quae, culpa, assumenda velit rerum sapiente praesentium adipisci repellat itaque voluptates.</p>
                 </div>
               </div>
-              <button className="py-2 px-3 border-2 border-[#3F51B5] text-[#3F51B5] font-bold hover:bg-[#3F51B5] transition-all duration-200 hover:text-white text-xl outline-none">View more</button>
+              <Link href="/academics" className="min-w-full">
+                <button className="w-full py-2 px-3 border-2 border-[#3F51B5] text-[#3F51B5] font-bold hover:bg-[#3F51B5] transition-all duration-200 hover:text-white text-xl outline-none">
+                  View more
+                </button>
+              </Link>
             </div>
             <div className="flex flex-col gap-5">
               <div className="w-[22rem] h-[17rem] relative overflow-hidden group">
@@ -81,7 +78,11 @@ export default function Home() {
                   <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit fugit, quas deleniti provident unde repudiandae inventore dolorem? Numquam labore quae, culpa, assumenda velit rerum sapiente praesentium adipisci repellat itaque voluptates.</p>
                 </div>
               </div>
-              <button className="py-2 px-3 border-2 border-[#3F51B5] text-[#3F51B5] font-bold hover:bg-[#3F51B5] transition-all duration-200 hover:text-white text-xl outline-none">View more</button>
+              <Link href="/academics" className="min-w-full">
+                <button className="w-full py-2 px-3 border-2 border-[#3F51B5] text-[#3F51B5] font-bold hover:bg-[#3F51B5] transition-all duration-200 hover:text-white text-xl outline-none">
+                  View more
+                </button>
+              </Link>
             </div>
             <div className="flex flex-col gap-5">
               <div className="w-[22rem] h-[17rem] relative overflow-hidden group">
@@ -91,7 +92,11 @@ export default function Home() {
                   <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit fugit, quas deleniti provident unde repudiandae inventore dolorem? Numquam labore quae, culpa, assumenda velit rerum sapiente praesentium adipisci repellat itaque voluptates.</p>
                 </div>
               </div>
-              <button className="py-2 px-3 border-2 border-[#3F51B5] text-[#3F51B5] font-bold hover:bg-[#3F51B5] transition-all duration-200 hover:text-white text-xl outline-none">View more</button>
+              <Link href="/academics" className="min-w-full">
+                <button className="w-full py-2 px-3 border-2 border-[#3F51B5] text-[#3F51B5] font-bold hover:bg-[#3F51B5] transition-all duration-200 hover:text-white text-xl outline-none">
+                  View more
+                </button>
+              </Link>
             </div>
 
           </div>

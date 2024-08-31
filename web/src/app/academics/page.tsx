@@ -32,7 +32,7 @@ const Academic = () => {
   }, []);
 
   return (
-    <section className="flex flex-col gap-5">
+    <section className="flex flex-col gap-5 px-11 my-5">
       <h1 className="text-3xl uppercase font-semibold">Academic</h1>
       <div className="grid grid-cols-4 gap-3 justify-center">
         {['Study Materials & Books', 'Online Resources', 'Myth About CGPA', 'Importance / Awareness About CGPA / Academics'].map(
