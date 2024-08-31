@@ -22,10 +22,10 @@ export default function Home() {
           <Link href="/upskill">
             <button className="px-3 py-2 bg-white border-2 text-xl border-blue-600 w-[10rem] hover:bg-blue-600 hover:text-white">Know More</button>
           </Link>        </div>
-        <Image src="/Academics-Badge.png" alt="" width={400} height={100} />
+        <Image src="/upskill.svg" alt="" width={400} height={100} />
       </div>
       <div className="flex items-center gap-5">
-        <Image src="/Academics-Badge.png" alt="" width={400} height={100} />
+        <Image src="/club-activities.png" alt="" width={400} height={100} />
         <div className="flex flex-col gap-5">
           <h1 className="text-4xl font-bold uppercase tracking-wider">Club Activities</h1>
 
