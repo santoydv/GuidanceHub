@@ -3,7 +3,7 @@ import Link from "next/link"
 const ExploreClubs = () => {
     return (
         <section className="flex flex-col gap-10 px-11 my-5">
-            <h1 className="text-3xl uppercase font-semibold">Club's Mentorship</h1>
+            <h1 className="text-3xl uppercase font-semibold">Club Mentorship</h1>
             <div className="flex flex-col gap-10 ">
                 <h1 className="text-3xl font-bold">Technical Society</h1>
                 <div className="grid grid-cols-4 gap-4">
@@ -192,7 +192,7 @@ const ExploreClubs = () => {
                         <button className="text-red-600">Know more</button>
                     </div>
                     <div className="px-6 py-3 rounded-md text-xl bg-slate-300 ">
-                        <h3>CHEFS' CLUB</h3>
+                        <h3>CHEFS CLUB</h3>
                         <button className="text-red-600">Know more</button>
                     </div>
                     <div className="px-6 py-3 rounded-md text-xl bg-slate-300 ">

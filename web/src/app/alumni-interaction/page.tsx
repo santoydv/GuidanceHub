@@ -1,21 +1,26 @@
+import Link from "next/link"
 
-const AlumniInteraction = () => {
-    return (
-        <section className="flex flex-col gap-5">
-            <h1 className="text-3xl uppercase font-semibold">Alumni Interaction</h1>
-            <div className="grid grid-cols-4 gap-3 justify-center">
-                <div className="h-[18rem] w-[20rem] shadow-lg flex justify-center items-center text-2xl font-semibold border-2 border-red-600 hover:bg-red-600 hover:text-white transition-all duration-500 cursor-pointer">
-                    Talk Sessions
-                </div>
-                <div className="h-[18rem] w-[20rem] shadow-lg flex justify-center items-center text-2xl font-semibold border-2 border-red-600 hover:bg-red-600 hover:text-white transition-all duration-500 cursor-pointer">
-                    Motivational Sessions
-                </div>
-                <div className="h-[18rem] w-[20rem] shadow-lg flex justify-center items-center text-2xl font-semibold border-2 border-red-600 hover:bg-red-600 hover:text-white transition-all duration-500 cursor-pointer">
-                    Connect With Alumni
-                </div>
-            </div>
-        </section>
-    )
+const Mentorship = () => {
+  return (
+    <section className="flex flex-col gap-5 px-11 my-5">
+      <h1 className="text-3xl uppercase font-semibold">Mentorship</h1>
+      <div className="flex flex-col items-center gap-10 my-10">
+        <div className="grid grid-cols-4 gap-5 ">
+          <div className="w-[22rem] h-[17rem] flex justify-center items-center p-2 rounded-md shadow-[0px_0px_10px_1px_#ccc] overflow-hidden">
+              <img src="/mentorship/15.jpg" alt="" className="rounded-md transition-all duration-300 cursor-pointer   hover:scale-105" />
+          </div>
+          <div className="w-[22rem] h-[17rem] flex justify-center items-center p-2 rounded-md shadow-[0px_0px_10px_1px_#ccc] overflow-hidden">
+              <img src="/mentorship/16.jpg" alt="" className="rounded-md transition-all duration-300 cursor-pointer   hover:scale-105" />
+          </div>
+          <div className="w-[22rem] h-[17rem] flex justify-center items-center p-2 rounded-md shadow-[0px_0px_10px_1px_#ccc] overflow-hidden">
+              <img src="/mentorship/17.jpg" alt="" className="rounded-md transition-all duration-300 cursor-pointer  hover:scale-105" />
+          </div>
+        </div>
+
+      </div>
+
+    </section>
+  )
 }
 
-export default AlumniInteraction
+export default Mentorship

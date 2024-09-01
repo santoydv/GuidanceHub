@@ -62,7 +62,7 @@ export default function Home() {
                 <img src="/up-skilling.jpg" className="w-full h-full object-cover" alt="Boy Photo" />
                 <div className="absolute text-[#3F51B5] px-2 top-[85%] bg-white h-full w-full transition-all duration-500 ease-in-out group-hover:top-0 flex flex-col gap-5">
                   <h1 className="text-2xl  font-bold">Up-Skilling</h1>
-                  <p>Stay ahead with our comprehensive resources for programming, web development, AI/ML, and more. Whether you're a beginner or looking for advanced opportunities, we help you build the skills that matter.
+                  <p>Stay ahead with our comprehensive resources for programming, web development, AI/ML, and more. Whether you are a beginner or looking for advanced opportunities, we help you build the skills that matter.
                   </p>
                 </div>
               </div>
@@ -76,7 +76,7 @@ export default function Home() {
               <div className="w-[22rem] h-[17rem] relative overflow-hidden group">
                 <img src="/club-guidance.jpg  " className="w-full h-full object-cover" alt="Boy Photo" />
                 <div className="absolute text-[#3F51B5] px-2 top-[85%] bg-white h-full w-full transition-all duration-500 ease-in-out group-hover:top-0 flex flex-col gap-5">
-                  <h1 className="text-2xl  font-bold">Club's Guidance</h1>
+                  <h1 className="text-2xl  font-bold">Club Guidance</h1>
                   <p>Club’s Guidance
                   Discover the dynamic world of student clubs. Our AI-driven insights rank club activities, helping you choose where to get involved, learn, and grow.</p>
                 </div>

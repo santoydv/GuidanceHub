@@ -35,10 +35,3 @@
   width: 0; 
   height: 0; 
 }
-.group:hover img {
-  filter: grayscale(100%);
-}
-
-.group:hover img:hover {
-  filter: grayscale(0%);
-}
