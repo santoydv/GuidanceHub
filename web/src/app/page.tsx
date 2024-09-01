@@ -78,7 +78,7 @@ export default function Home() {
                   <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit fugit, quas deleniti provident unde repudiandae inventore dolorem? Numquam labore quae, culpa, assumenda velit rerum sapiente praesentium adipisci repellat itaque voluptates.</p>
                 </div>
               </div>
-              <Link href="/academics" className="min-w-full">
+              <Link href="/club-activities" className="min-w-full">
                 <button className="w-full py-2 px-3 border-2 border-[#3F51B5] text-[#3F51B5] font-bold hover:bg-[#3F51B5] transition-all duration-200 hover:text-white text-xl outline-none">
                   View more
                 </button>
@@ -92,7 +92,7 @@ export default function Home() {
                   <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit fugit, quas deleniti provident unde repudiandae inventore dolorem? Numquam labore quae, culpa, assumenda velit rerum sapiente praesentium adipisci repellat itaque voluptates.</p>
                 </div>
               </div>
-              <Link href="/academics" className="min-w-full">
+              <Link href="/alumni-interaction" className="min-w-full">
                 <button className="w-full py-2 px-3 border-2 border-[#3F51B5] text-[#3F51B5] font-bold hover:bg-[#3F51B5] transition-all duration-200 hover:text-white text-xl outline-none">
                   View more
                 </button>
@@ -101,34 +101,7 @@ export default function Home() {
 
           </div>
         </div>
-        <footer className="bg-[#3F51B5]">
-          <div className=" text-white flex justify-start py-14">
-            <div className="h-full flex-1 px-10 flex items-center justify-center text-3xl font-bold uppercase tracking-wider text-white">
-              GuidanceHUB
-            </div>
-            <div className="flex-1">
-              <h2 className="font-bold mb-2 text-xl ">Useful Links</h2>
-              <ul className="flex flex-col justify-start gap-2">
-                <Link href="/"><li className="hover:text-gray-200">Home</li></Link>
-                <Link href="/about"><li className="hover:text-gray-200">About us</li></Link>
-                <Link href="/contact"><li className="hover:text-gray-200">Contact us</li></Link>
-                <Link href="/privacy-policy"><li className="hover:text-gray-200">Privacy Policy</li></Link>
-                <Link href="/disclaimer"><li className="hover:text-gray-200">Disclaimer</li></Link>
-              </ul>
-            </div>
-            <div className="flex-1">
-              <h2 className="font-bold mb-2 text-xl ">Our Features</h2>
-              <ul className="flex flex-col justify-start gap-2">
-                <Link href="/"><li className="hover:text-gray-200">Home</li></Link>
-                <Link href="/about"><li className="hover:text-gray-200">About us</li></Link>
-                <Link href="/contact"><li className="hover:text-gray-200">Contact us</li></Link>
-                <Link href="/privacy-policy"><li className="hover:text-gray-200">Privacy Policy</li></Link>
-                <Link href="/disclaimer"><li className="hover:text-gray-200">Disclaimer</li></Link>
-              </ul>
-            </div>
-          </div>
-          <div className="text-center py-2 text-white">Copyright &#169; GuidanceHUB. All Right Reserved</div>
-        </footer>
+        
 
 
       </section>

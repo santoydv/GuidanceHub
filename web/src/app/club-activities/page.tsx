@@ -1,17 +1,20 @@
 
 const ClubActivities = () => {
   return (
-    <section className="flex flex-col gap-5">
-      <h1 className="text-3xl uppercase font-semibold">Club Activities</h1>
-      <div className="grid grid-cols-4 gap-3 justify-center">
-        <div className="h-[18rem] w-[20rem] shadow-lg flex justify-center items-center text-2xl font-semibold border-2 border-red-600 hover:bg-red-600 hover:text-white transition-all duration-500 cursor-pointer">
-          Explore Clubs
+    <section className="flex flex-col gap-5 px-11 my-5">
+      <h1 className="text-3xl uppercase font-semibold">Club's Mentorship</h1>
+      <div className="flex flex-col items-center gap-10 my-10">
+        <div className="grid grid-cols-4 gap-5">
+          <div className="w-[22rem] h-[17rem] flex justify-center items-center p-2 rounded-md shadow-[0px_0px_10px_1px_#ccc] overflow-hidden">
+            <img src="/upskilling/5.jpg" alt="" className="rounded-md hover:scale-105 overflow-hidden transition-all duration-300 cursor-pointer" />
+          </div>
+          <div className="w-[22rem] h-[17rem] flex justify-center items-center p-2 rounded-md shadow-[0px_0px_10px_1px_#ccc] overflow-hidden">
+            <img src="/upskilling/6.jpg" alt="" className="rounded-md hover:scale-105 overflow-hidden transition-all duration-300 cursor-pointer" />
+          </div>
+          
         </div>
-        <div className="h-[18rem] w-[20rem] shadow-lg flex justify-center items-center text-2xl font-semibold border-2 border-red-600 hover:bg-red-600 hover:text-white transition-all duration-500 cursor-pointer">
-          Major Events
-        </div>
-
       </div>
+
     </section>
   )
 }

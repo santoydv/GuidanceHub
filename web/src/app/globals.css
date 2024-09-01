@@ -17,3 +17,21 @@
     0 0 10px rgba(0, 0, 0, 0.5), /* Outer shadow (blur effect) */
     0 0 20px rgba(0, 0, 0, 0.3); /* Inner shadow (simulated spread) */
 }
+.darr {
+  position: relative;
+  display: inline-block; 
+  
+}
+
+.darr::after {
+  content: '';
+  position: absolute;
+  bottom: -8px; 
+  left: 50%; 
+  transform: translateX(-50%); 
+  border-left: 10px solid transparent; 
+  border-right: 10px solid transparent;
+  border-top: 10px solid #3F51B5;
+  width: 0; 
+  height: 0; 
+}
