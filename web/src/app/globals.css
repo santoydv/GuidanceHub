@@ -20,7 +20,7 @@
 .darr {
   position: relative;
   display: inline-block; 
-  
+
 }
 
 .darr::after {
@@ -34,4 +34,11 @@
   border-top: 10px solid #3F51B5;
   width: 0; 
   height: 0; 
+}
+.group:hover img {
+  filter: grayscale(100%);
+}
+
+.group:hover img:hover {
+  filter: grayscale(0%);
 }

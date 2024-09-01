@@ -177,6 +177,113 @@ const ExploreClubs = () => {
                 </div>
             </div>
             <div className="flex flex-col gap-10 ">
+                <h1 className="text-3xl font-bold">Literary and Cultural Society</h1>
+                <div className="grid grid-cols-4 gap-4">
+                    <div className="px-6 py-3 rounded-md text-xl bg-slate-300 ">
+                        <h3>Kalaam</h3>
+                        <button className="text-red-600">Know more</button>
+                    </div>
+                    <div className="px-6 py-3 rounded-md text-xl bg-slate-300 ">
+                        <h3>Aspirants Club</h3>
+                        <button className="text-red-600">Know more</button>
+                    </div>
+                    <div className="px-6 py-3 rounded-md text-xl bg-slate-300 ">
+                        <h3>Heart to Heart</h3>
+                        <button className="text-red-600">Know more</button>
+                    </div>
+                    <div className="px-6 py-3 rounded-md text-xl bg-slate-300 ">
+                        <h3>CHEFS' CLUB</h3>
+                        <button className="text-red-600">Know more</button>
+                    </div>
+                    <div className="px-6 py-3 rounded-md text-xl bg-slate-300 ">
+                        <h3>Clarion</h3>
+                        <button className="text-red-600">Know more</button>
+                    </div>
+                    <div className="px-6 py-3 rounded-md text-xl bg-slate-300 ">
+                        <h3>Cognizen</h3>
+                        <button className="text-red-600">Know more</button>
+                    </div>
+                    <div className="px-6 py-3 rounded-md text-xl bg-slate-300 ">
+                        <h3>Degree361</h3>
+                        <button className="text-red-600">Know more</button>
+                    </div>
+                    <div className="px-6 py-3 rounded-md text-xl bg-slate-300 ">
+                        <h3>EBSB</h3>
+                        <button className="text-red-600">Know more</button>
+                    </div>
+                    <div className="px-6 py-3 rounded-md text-xl bg-slate-300 ">
+                        <h3>Fusion</h3>
+                        <button className="text-red-600">Know more</button>
+                    </div>
+                    <div className="px-6 py-3 rounded-md text-xl bg-slate-300 ">
+                        <h3>GirlUp</h3>
+                        <button className="text-red-600">Know more</button>
+                    </div>
+                    <div className="px-6 py-3 rounded-md text-xl bg-slate-300 ">
+                        <h3>HOURGLASS</h3>
+                        <button className="text-red-600">Know more</button>
+                    </div>
+                    <div className="px-6 py-3 rounded-md text-xl bg-slate-300 ">
+                        <h3>INQUIZZITIVE_CLUB</h3>
+                        <button className="text-red-600">Know more</button>
+                    </div>
+                    <div className="px-6 py-3 rounded-md text-xl bg-slate-300 ">
+                        <h3>LEO</h3>
+                        <button className="text-red-600">Know more</button>
+                    </div>
+                    <div className="px-6 py-3 rounded-md text-xl bg-slate-300 ">
+                        <h3>Literabuzz</h3>
+                        <button className="text-red-600">Know more</button>
+                    </div>
+                    <div className="px-6 py-3 rounded-md text-xl bg-slate-300 ">
+                        <h3>Mystique</h3>
+                        <button className="text-red-600">Know more</button>
+                    </div>
+                    <div className="px-6 py-3 rounded-md text-xl bg-slate-300 ">
+                        <h3>Odiya Sahitya Samaja</h3>
+                        <button className="text-red-600">Know more</button>
+                    </div>
+                    <div className="px-6 py-3 rounded-md text-xl bg-slate-300 ">
+                        <h3>PMSF</h3>
+                        <button className="text-red-600">Know more</button>
+                    </div>
+                    <div className="px-6 py-3 rounded-md text-xl bg-slate-300 ">
+                        <h3>Rainbow Dot</h3>
+                        <button className="text-red-600">Know more</button>
+                    </div>
+                    <div className="px-6 py-3 rounded-md text-xl bg-slate-300 ">
+                        <h3>SDG Campus Club</h3>
+                        <button className="text-red-600">Know more</button>
+                    </div>
+                    <div className="px-6 py-3 rounded-md text-xl bg-slate-300 ">
+                        <h3>Swami Vivekananda</h3>
+                        <button className="text-red-600">Know more</button>
+                    </div>
+                    <div className="px-6 py-3 rounded-md text-xl bg-slate-300 ">
+                        <h3>Voice of Voiceless</h3>
+                        <button className="text-red-600">Know more</button>
+                    </div>
+                    <div className="px-6 py-3 rounded-md text-xl bg-slate-300 ">
+                        <h3>TEDx</h3>
+                        <button className="text-red-600">Know more</button>
+                    </div>
+                    <div className="px-6 py-3 rounded-md text-xl bg-slate-300 ">
+                        <h3>Chitraang</h3>
+                        <button className="text-red-600">Know more</button>
+                    </div>
+                    <div className="px-6 py-3 rounded-md text-xl bg-slate-300 ">
+                        <h3>Rotaract</h3>
+                        <button className="text-red-600">Know more</button>
+                    </div>
+                    <div className="px-6 py-3 rounded-md text-xl bg-slate-300 ">
+                        <h3>Monday Morning</h3>
+                        <button className="text-red-600">Know more</button>
+                    </div>
+                </div>
+
+
+            </div>
+            <div className="flex flex-col gap-10 ">
                 <h1 className="text-3xl font-bold">Games and Sports Society</h1>
                 <div className="grid grid-cols-4 gap-4">
                     <div className="px-6 py-3 rounded-md text-xl bg-slate-300 ">
