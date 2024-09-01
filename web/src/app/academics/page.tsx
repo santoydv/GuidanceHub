@@ -7,7 +7,9 @@ const ClubActivities = () => {
       <div className="flex flex-col items-center gap-10 my-10">
         <div className="grid grid-cols-4 gap-5 ">
           <div className="w-[22rem] h-[17rem] flex justify-center items-center p-2 rounded-md shadow-[0px_0px_10px_1px_#ccc] overflow-hidden">
+            <Link href="/academics/study-material">
             <img src="/academics/9.jpg" alt="" className="rounded-md transition-all duration-300 cursor-pointer  hover:scale-105" />
+            </Link>
           </div>
           <div className="w-[22rem] h-[17rem] flex justify-center items-center p-2 rounded-md shadow-[0px_0px_10px_1px_#ccc] overflow-hidden">
             <img src="/academics/10.jpg" alt="" className="rounded-md transition-all duration-300 cursor-pointer  hover:scale-105" />

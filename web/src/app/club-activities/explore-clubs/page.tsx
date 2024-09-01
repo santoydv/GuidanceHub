@@ -4,6 +4,11 @@ const ExploreClubs = () => {
     return (
         <section className="flex flex-col gap-10 px-11 my-5">
             <h1 className="text-3xl uppercase font-semibold">Club Mentorship</h1>
+            <Link href="/club-activities/explore-clubs/reviews">
+            <button className="bg-[#3F51B5] w-[12rem] h-[3rem] rounded-md text-white font-semibold">
+                See Club Reviews
+            </button>
+            </Link>
             <div className="flex flex-col gap-10 ">
                 <h1 className="text-3xl font-bold">Technical Society</h1>
                 <div className="grid grid-cols-4 gap-4">
