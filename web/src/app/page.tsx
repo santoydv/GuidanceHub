@@ -22,7 +22,7 @@ export default function Home() {
             <div className="h-[75vh] w-full bg-[#F8D287] grid grid-cols-2">
               <div className="mx-32 flex justify-center  flex-col gap-5">
                 <h2 className="text-[#3F51B5] text-3xl">A One Stop Solution for Fresher Students.</h2>
-                <p className="text-[#3F51B5] text-lg">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui minima velit quo nostrum reprehenderit porro, non architecto ipsa maiores excepturi commodi a, illo sit suscipit nobis, exercitationem magni corporis accusantium.</p>
+                <p className="text-[#3F51B5] text-lg">Welcome to Guidance Hub, your go-to platform for navigating student life at NIT Rourkela. From academics to skills development, club activities to alumni connections, we’re here to guide your journey with the power of AI and full-stack development. Let’s grow and succeed together!</p>
                 <div>
                   <button className="bg-[#3F51B5] px-3 py-2 text-white ">Know More</button>
                 </div>
@@ -46,7 +46,8 @@ export default function Home() {
                 <img src="/academics.jpg" className="w-full h-full object-cover" alt="Boy Photo" />
                 <div className="absolute px-2 text-[#3F51B5] top-[85%] bg-white h-full w-full transition-all duration-500 ease-in-out group-hover:top-0 flex flex-col gap-5">
                   <h1 className="text-2xl  font-bold">Academics</h1>
-                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit fugit, quas deleniti provident unde repudiandae inventore dolorem? Numquam labore quae, culpa, assumenda velit rerum sapiente praesentium adipisci repellat itaque voluptates.</p>
+                  <p>Unlock access to curated study materials, essential books, and online resources. We help you navigate the myths and truths about CGPA, empowering you to excel in your academic pursuits.
+                  </p>
                 </div>
               </div>
               <Link href="/academics" className="min-w-full">
@@ -61,7 +62,8 @@ export default function Home() {
                 <img src="/up-skilling.jpg" className="w-full h-full object-cover" alt="Boy Photo" />
                 <div className="absolute text-[#3F51B5] px-2 top-[85%] bg-white h-full w-full transition-all duration-500 ease-in-out group-hover:top-0 flex flex-col gap-5">
                   <h1 className="text-2xl  font-bold">Up-Skilling</h1>
-                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit fugit, quas deleniti provident unde repudiandae inventore dolorem? Numquam labore quae, culpa, assumenda velit rerum sapiente praesentium adipisci repellat itaque voluptates.</p>
+                  <p>Stay ahead with our comprehensive resources for programming, web development, AI/ML, and more. Whether you're a beginner or looking for advanced opportunities, we help you build the skills that matter.
+                  </p>
                 </div>
               </div>
               <Link href="/upskill" className="min-w-full">
@@ -75,7 +77,8 @@ export default function Home() {
                 <img src="/club-guidance.jpg  " className="w-full h-full object-cover" alt="Boy Photo" />
                 <div className="absolute text-[#3F51B5] px-2 top-[85%] bg-white h-full w-full transition-all duration-500 ease-in-out group-hover:top-0 flex flex-col gap-5">
                   <h1 className="text-2xl  font-bold">Club's Guidance</h1>
-                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit fugit, quas deleniti provident unde repudiandae inventore dolorem? Numquam labore quae, culpa, assumenda velit rerum sapiente praesentium adipisci repellat itaque voluptates.</p>
+                  <p>Club’s Guidance
+                  Discover the dynamic world of student clubs. Our AI-driven insights rank club activities, helping you choose where to get involved, learn, and grow.</p>
                 </div>
               </div>
               <Link href="/club-activities" className="min-w-full">
@@ -89,7 +92,7 @@ export default function Home() {
                 <img src="/mentorship.jpg" className="w-full h-full object-cover" alt="Boy Photo" />
                 <div className="absolute px-2 text-[#3F51B5] top-[85%] bg-white h-full w-full transition-all duration-500 ease-in-out group-hover:top-0 flex flex-col gap-5">
                   <h1 className="text-2xl  font-bold">Mentorship</h1>
-                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit fugit, quas deleniti provident unde repudiandae inventore dolorem? Numquam labore quae, culpa, assumenda velit rerum sapiente praesentium adipisci repellat itaque voluptates.</p>
+                  <p>Connect with experienced alumni and motivational speakers. Access career insights, watch past sessions, and find guidance from those who’ve been in your shoes.</p>
                 </div>
               </div>
               <Link href="/alumni-interaction" className="min-w-full">
