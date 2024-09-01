@@ -13,7 +13,7 @@ Our web application is designed to support students in various aspects of their 
 
 ## Live Demo
 
-You can view the deployed application at [Student Guidance Platform](https://guidancehub.vercel.app/).
+You can view the deployed application at [Student Guidance Platform](https://guidancehub.vercel.app/) (opens in a new tab).
 
 ## Tech Stack
 
