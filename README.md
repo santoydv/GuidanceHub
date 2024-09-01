@@ -11,6 +11,10 @@ Our web application is designed to support students in various aspects of their 
 - **Club Involvement**: Details on club activities, analysis of club activeness using AI models based on surveys, and information on achievements in national and inter-college events.
 - **Motivational Sessions & Alumni Interaction**: Talk sessions with professionals, insights from alumni, LinkedIn profiles, and past motivational session videos.
 
+## Live Demo
+
+You can view the deployed application at [Student Guidance Platform](https://guidancehub.vercel.app/).
+
 ## Tech Stack
 
 - **Frontend**:
@@ -43,3 +47,4 @@ To get started with the project:
 1. **Clone the Repository**:
    ```bash
    git clone https://github.com/yourusername/student-guidance-platform.git
+
