@@ -38,7 +38,6 @@ We are grateful for the contributions from our dedicated team members. Check out
 - [Santosh Yadav](https://github.com/santoydv)
 - [Md Ashif Razza](https://github.com/mdashifraza7786)
 - [Rajan Thakulla](https://github.com/rajanthakulla)
-- [Anjali Sharma](https://github.com/anjali03027)
 
 ## Getting Started
 
